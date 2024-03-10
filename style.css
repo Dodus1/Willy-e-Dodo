@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'FontMio';
+    src: url('Catboo.ttf');
+}
+
+body{
+    font-family: 'FontMio';
+    font-style:normal;
+    font-size:x-large;
+    background-color: #CA9CF0;
+}
+
+img{
+    padding-bottom: 50px;
+}
+
+h1{
+    padding-bottom: 50px;
+}
+
+button{
+    font-family: 'FontMio';
+    font-size:large;
+    border-radius: 10%;
+    border: 4px solid blueviolet;
+    width: 200px;
+    margin: 10px;
+}
+
+button:active {
+    background-color: rgb(205, 164, 243);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+
+.tile {
+    border: 4px solid blueviolet;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: lavender;
+}
+
+.playerX {
+    color: #6118f2;
+}
+
+.playerO {
+    color: #ac1eff;
+}
+
